@@ -21,3 +21,4 @@ RUN cd ${NETPERF_DIR} \
   && make install \
   && make clean
 
+ENTRYPOINT ["netperf"]
